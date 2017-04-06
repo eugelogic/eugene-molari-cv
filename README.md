@@ -1,2 +1,2 @@
-# eugenemolaricv
-Eugene Molari's Curriculum Vitae
+# Eugene Molari CV
+HTML template of my CV online.
