@@ -1,3 +1,2 @@
 # Eugene Molari CV
-Eugene Molari's Curriculum Vitae
-last updated on 201704..
+HTML template of my CV online.
