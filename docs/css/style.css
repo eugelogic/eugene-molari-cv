@@ -1,0 +1,100 @@
+body, a {
+  font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.top-bar {
+  min-height: 140px;
+  background-color: #4CD0E0;
+}
+
+.intro {
+  background: #44BBC9;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  color: white;
+}
+
+.intro img {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: -80px;
+  margin-left: -80px;
+  left: 50%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.intro .name {
+  font-size: 58px;
+  margin: 10px 0 20px;
+}
+
+.intro .title {
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.social a {
+  font-size: 4rem;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.contact-info {
+  font-size: 2rem;
+  background: #3CA6B3;
+  min-height: 50px;
+}
+
+.contact-info ul {
+  color: white;
+  margin-top: 15px;
+}
+
+.contact-info a {
+  color: white;
+  margin-top: 15px;
+}
+
+.contact-info i {
+  margin-right: 50px;
+}
+
+.profile {
+  background: #35919C;
+}
+
+.profile p {
+  color: white;
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.page-nav-space-holder {
+  background: #2D7C86;
+  min-height: 50px;
+}
+.page-nav-space-holder ul {
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.page-nav-space-holder li {
+
+}
+
+.page-nav-space-holder a {
+  color: white;
+  margin-right: 50px;
+}
