@@ -1,6 +1,6 @@
 body, a {
-  font-family: 'Raleway', Helvetica, sans-serif;
-	font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 
 .top-bar {
@@ -11,7 +11,7 @@ body, a {
 .intro {
   background: #44BBC9;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   position: relative;
   color: white;
 }
@@ -23,13 +23,13 @@ body, a {
   top: -80px;
   margin-left: -80px;
   left: 50%;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 50%;
 }
 
 .intro .name {
-  font-size: 58px;
-  margin: 10px 0 20px;
+  font-size: 50px;
+  margin: -10px 0 20px;
 }
 
 .intro .title {
@@ -47,6 +47,10 @@ body, a {
   height: 60px;
   border: 2px solid white;
   border-radius: 50%;
+}
+
+.social a:hover {
+  color: #2D7C86;
 }
 
 .contact-info {
@@ -75,10 +79,10 @@ body, a {
 
 .profile p {
   color: white;
-  font-size: 1.5rem;
+  line-height: 28px;
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .page-nav-space-holder {
@@ -86,15 +90,68 @@ body, a {
   min-height: 50px;
 }
 .page-nav-space-holder ul {
-  margin-top: 15px;
+  margin-top: 13px;
   text-transform: uppercase;
 }
 
-.page-nav-space-holder li {
-
+.page-nav-space-holder a {
+  color: #d7d7d7;
+  margin-right: 50px;
+  text-decoration: none;
 }
 
-.page-nav-space-holder a {
+.page-nav-space-holder a:hover {
   color: white;
-  margin-right: 50px;
+}
+
+#tech-skills,
+#other-skills {
+  padding: 30px 0;
+}
+
+.unstyled {
+  list-style: none;
+}
+
+.unstyled i {
+  margin-right: 20px;
+}
+
+#tech-skills ul,
+#other-skills ul {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+#tech-skills li,
+#other-skills li {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.title-bullet-list {
+  font-weight: bold;
+  color: #555;
+  border-bottom: 2px solid #555;
+}
+
+#other-skills {
+  background: #eeeeee;
+}
+
+footer {
+  background: #333;
+  min-height: 100px;
+}
+
+footer p,
+footer a {
+  color: #e3e3e3;
+  padding-top: 40px;
+  font-size: 0.9em;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
 }
