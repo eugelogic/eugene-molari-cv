@@ -1,2 +1,7 @@
-# Eugene Molari CV
-HTML template of my CV online.
+# My CV Static
+Website template for a static CV with the following technologies:
+- HTML5
+- CSS3
+- Bootstrap
+- jQuery
+- ...
