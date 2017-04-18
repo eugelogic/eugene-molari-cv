@@ -105,7 +105,8 @@ body, a {
 }
 
 #tech-skills,
-#other-skills {
+#other-skills,
+#pie-charts {
   padding: 30px 0;
 }
 
@@ -125,7 +126,7 @@ body, a {
 
 #tech-skills li,
 #other-skills li {
-  color: #666;
+  color: #555;
   margin-bottom: 20px;
 }
 
@@ -137,6 +138,45 @@ body, a {
 
 #other-skills {
   background: #eeeeee;
+}
+
+#pie-charts h2 {
+  margin-bottom: 40px;
+}
+
+#pie-charts .row {
+  margin-bottom: 40px;
+}
+
+.chart {
+  width: 150px;
+  height: 150px;
+  /*vertical-align: middle;*/
+  position: relative;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Not sure why I need the following since "canvas" is not featured on index.html */
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.chart span {
+  line-height: 150px;
+}
+
+.chart-box h4 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.chart-box p {
+  text-align: center;
+  font-size: 16px;
 }
 
 footer {
