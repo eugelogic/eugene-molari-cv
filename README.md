@@ -4,4 +4,5 @@ Website template for a static CV with the following technologies:
 - CSS3
 - Bootstrap
 - jQuery
+- Isotope http://isotope.metafizzy.co/
 - ...

@@ -106,11 +106,13 @@ body, a {
 
 #tech-skills,
 #other-skills,
-#pie-charts {
+#pie-charts,
+#portfolio {
   padding: 30px 0;
 }
 
-.unstyled {
+.unstyled,
+.filters {
   list-style: none;
 }
 
@@ -131,15 +133,18 @@ body, a {
 }
 
 .title-bullet-list {
-  font-weight: bold;
   color: #555;
   border-bottom: 2px solid #555;
 }
 
-#other-skills {
+#other-skills,
+#portfolio {
   background: #eeeeee;
 }
 
+/*--------------------------------------------------------------
+# Pie charts
+--------------------------------------------------------------*/
 #pie-charts h2 {
   margin-bottom: 40px;
 }
@@ -158,7 +163,7 @@ body, a {
   margin-bottom: 30px;
 }
 
-/* Not sure why I need the following since "canvas" is not featured on index.html */
+/* It looks like "canvas" is dynamically added to the index.html */
 .chart canvas {
   position: absolute;
   top: 0;
@@ -179,6 +184,102 @@ body, a {
   font-size: 16px;
 }
 
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+#portfolio h2 {
+  margin-bottom: 40px;
+}
+
+#portfolio .filters {
+  margin-bottom: 50px;
+}
+
+#portfolio ul {
+  text-align: center;
+  padding-bottom: 0.25px;
+  border-bottom: 1px solid #555;
+}
+
+#portfolio ul li {
+  display: inline-block;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#portfolio .active {
+  color: #35919c;
+  border-bottom: 2px solid #35919c;
+}
+
+.items-wrapper {
+  position: relative;
+  height: 600px;
+}
+
+.item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-bottom: 30px;
+}
+
+.item-inner {
+  background: #44bbc9;
+  color: white;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+}
+
+.content {
+  padding: 30px 30px 75px;
+  position: relative;
+}
+
+.content h3 {
+  margin-top: 0;
+}
+
+.meta {
+  font-size: 0.75em;
+}
+
+.btn {
+  position: absolute;
+  bottom: 30px;
+  left: 46px;
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn:hover {
+  color: #2d7c86;
+  border-color: #2d7c86;
+}
+
+.item-inner a {
+  color: white;
+}
+
+figure {
+  overflow: hidden;
+}
+
+figure img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+figure img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 footer {
   background: #333;
   min-height: 100px;
