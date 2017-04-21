@@ -277,6 +277,24 @@ figure img:hover {
   transform: scale(1.1);
 }
 
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  top: 65px;
+  left: 8px;
+}
+
+figcaption h5 {
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: rotate(-20deg);
+  text-align: center;
+  color: #fec200;
+  font-size: 2em;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
